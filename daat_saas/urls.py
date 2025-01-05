@@ -22,4 +22,5 @@ urlpatterns = [
     path('', include('main.urls')),
     path('administer/', include('administer.urls')),
     path('vendor/', include('vendor.urls')),
+    path('ugesh/',include('ugesh.urls')),
 ]
